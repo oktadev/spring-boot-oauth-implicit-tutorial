@@ -3,9 +3,3 @@ okta:
     # Client ID from above step
     clientId: 00ICU81200ICU812
     issuer: https://dev-976872.oktapreview.com/oauth2/default
-
-
-security:
-  oauth2:
-    resource:
-      userInfoUri: ${okta.oauth2.issuer}/v1/userinfo
